@@ -1,0 +1,26 @@
+{
+  "name": "mailer_test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@getbrevo/brevo": "^2.5.0",
+    "dotenv": "^17.2.0",
+    "fastify": "^5.4.0",
+    "mailersend": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.13",
+    "@types/request": "^2.48.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
